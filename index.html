@@ -1,4 +1,4 @@
-# MiloMilo231.github.io
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +7,68 @@
 <body>
 <h1>Witamy na stronie MiloMilo231.github.io!</h1>
   <input type="search" placeholder="Cześć, jestem Wyszukiwarką" id="search">
+  <ol>
+    Top #3 gry:  <strong><a href="#Naglowek-1">Nagłówek 1</a></strong><br>
+    Top #10 najlepsze aplikacje:  <strong><a href="#Naglowek-3">Nagółwek 3</a></strong><br>
+    Gdzie nauczyć się robienia stron interetowych (html)?:  <strong><a href="#Naglowek-2">Nagłówek 2</a></strong><br>
+</ol>
+<img src="https://www.kasandbox.org/programming-images/cute/GemGreen.png" width="200">
+<h2 id="Naglowek-1"><strong>Top #3 gry</strong></h2>
+<ol>
+    1.Fishdom<br>
+    2.Brain Test<br>
+    3.Gardenscapes<br>
+</ol>
+<p><a href="https://play.google.com/store/apps/top/category/GAME">Źródło: Google Play</a></p>
+<h2 id="#Naglowek-2"><strong>Gdzie nauczyć się robienia stron interetowych (html)?</strong></h2>
+<p>Najlepiej nauczyć się robienia stron interetowych w Khan Academy<br>
+Link: https://pl.khanacademy.org/computing/computer-programming/html-css<br>
+<a href="wieciej-html.html">Więcej tutaj.</a> </p>
+<h2><strong>Top #10 najlepsze aplikacje</strong></h2>
+<ol id="top-10-apps" id="Naglowek-3">
+   1. Microsoft Teams <br>
+   2. Vinted.pl<br>
+    3.TikTok<br>
+    4.ZOOM Cloud Meetings<br>
+    6.InPost Mobile<br>
+    7.Allegro<br>
+    8.Netflix<br>
+    9.Wish<br>
+    10.Discord<br>
+</ol>
+<h2>Gry</h2>
+<ol>
+    <strong>Winston OBJECT<br></strong>
+    <strong><a href="wiecej-gier.html">Więcej...</a></strong>
+</ol>
+<input type="text" id="lname" name="" placeholder="Twoja opinia"><br><br>
+<input type="button" onclick="test()" name="sumbit"  value="Wyślij">
+<h5>Do Zobaczenia! :)</h5>
+<script>
+    function test(){
+    var name=document.getElementById("lname").value;
+    if(name=="Super"){
+        alert("Pomyśłnie wysłano")
+    }
+    else{
+        alert("Napisz Super, proszę ;)")
+    }
+    }
+    function search(){
+        var search=document.getElementById("search").value
+        if(search=="top #3 gry"){
+            document.location.href = "#Naglowek-1";
+        }
+        if(search=="top"){
+            document.location.href = "!search='top'.htm"
+        }
+        else{
+            alert("Brak takiego hasła :-(. Spróbuj ponownie.")
+        }
+        
+    }
+</script>
+<h2>Kontakt:<br> kotlet@pro-em.com.pl<br> MiloGames Studio 2020
 </body>
 
 
